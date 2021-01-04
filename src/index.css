@@ -215,3 +215,35 @@ input{
   border-radius: .5rem;
   box-shadow: 1px 0 2px -1px #203040;
 }
+
+/* Product Details */
+
+.product-details{
+  display: flex;
+  flex: wrap;
+  justify-content: space-between;
+  max-height: 96vh;
+}
+
+.product-details img{
+  max-height: 100vh;
+  max-width: 46rem;
+  margin:0 auto;
+}
+
+.product-details-description{
+  flex:1 1;
+  margin:1.5rem;
+}
+
+.close-modal{
+  position: absolute;
+  right: 1rem;
+  top:2.5rem;
+  z-index: 1000;
+  background-color: #8a1d1d;
+  color: #fff;
+  border-radius: 70%;
+  cursor: pointer;
+  border:none;
+}
